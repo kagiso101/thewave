@@ -348,11 +348,11 @@
 
 .web-title{
     font-family: 'Black Bones Personal Use', sans-serif;
-                                                
+    color: #f9f9f9;                             
 }
 .web-title-everlasting{
     font-family: 'Black Bones Personal Use', sans-serif;
-    color:#593182;
+    color:#c867cf;
 }
 
 .logo_section {
@@ -847,7 +847,6 @@
 .menu-area-main li.active a {
      color: #fff;
      background: #46226e;
-     border-radius: 17px;
      }
 
  .main-menu {
@@ -876,7 +875,6 @@
  .main-menu ul>li a:hover {
 color: #fff;
 background: #46226e;
-border-radius: 17px;
 transition: all 0.3s ease-in;
  }
  .main-menu ul li:last-child a {
@@ -990,7 +988,7 @@ transition: all 0.3s ease-in;
      background-repeat: no-repeat;
      padding-bottom: 50px;
     
-     min-height: 980px;
+     min-height: 1000px;
 }
  .header {
      position: absolute;
@@ -1173,6 +1171,31 @@ padding: 110px 0;
      padding: 35px 0px;
 }
 
+.read-more-button{
+    margin-top:30px;
+    font-size: 16px;
+    border: #593182 solid 1px;
+    background-color: #593182;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+}
+.read-more-button:hover{
+    background-color: #593182;
+    border: #593182 solid 1px;
+   color: #fff;
+}
+
+.read-more-about-us-expand{
+    line-height: 1.5em;
+    height: 50em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
  .about .about-box a {
      font-size: 16px;
 border: #593182 solid 1px;
@@ -1241,8 +1264,8 @@ float: left;
 margin-top: 53px;
 }
  .box_text a:hover {
-     background-color: #0ed1f0;
-     border: #0ed1f0 solid 1px;
+     background-color: #593182;
+     border: #593182 solid 1px;
      color: #fff;
 }
 .padding_left3 {padding-right: 0px;}
@@ -1257,9 +1280,8 @@ margin-top: 53px;
 
 /** Gallery **/
 .Gallery {
-background: #ececec;
+background: url(../styles/everlasting-header.PNG);
 padding: 110px 0;
-margin-top: 90px;
 }
 
 .Gallery_text .titlepage {
@@ -1332,7 +1354,12 @@ ul.icon_hu li {padding: 10px 3px; display: inline-block;}
 
 /** end Gallery **/
 
-
+.read-more-about-us{
+    line-height: 1.5em;
+    height: 15em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 
 /** end make **/
 
@@ -1543,8 +1570,7 @@ justify-content: center;
 
 
 .contineer_page .header {
-    background: #1f1f1f;
-    padding-bottom: 27px;  
+    background:#161616;
     position: inherit;
 }
 

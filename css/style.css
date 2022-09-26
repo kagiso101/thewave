@@ -1137,7 +1137,9 @@ transition: ease all 0.5s;
 .carousel-control-next {
     right: 40%;
 }
-
+.gmail{
+    background: url(../styles/IMG/email.png);
+}
 /** about section **/
  .about {
 background:url(../styles/everlasting-header.PNG);
